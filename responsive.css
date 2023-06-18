@@ -1,0 +1,74 @@
+@media screen and (max-width: 900px) {
+
+
+
+    html{
+        font-size: 15px;
+       }
+   
+  
+    .modd button{
+ 
+     width: 7rem;
+     color: white;
+     background-color: black;
+     margin-top: 1rem;
+ border-radius: 2rem;
+     border: solid white 2px;
+    }
+ 
+
+     main{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .container{
+         font-size: 3rem;
+         /* margin-right: 28vw; */
+     }
+     .card{
+         width: 100vw;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+ justify-content: space-evenly;
+ align-items: center;
+  
+     }
+   
+     #mode{
+      float: left;
+     }
+   
+    .scoreboard{
+     width: max-content;
+     height: max-content
+    }
+    .reset{
+     width: max-content;
+     height: max-content
+    }
+    .alert{
+ 
+     font-size: 1.7rem;
+ padding-bottom: 4vh;
+     width: 44vw;
+     height: 8vh;
+     position: relative;
+     bottom: -4vh;
+    }
+    }
+
+    @media screen and (max-width: 737px) {
+        html{
+            font-size: 13px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        html{
+            font-size: 8px;
+        }
+    }
+  
